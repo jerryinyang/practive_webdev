@@ -26,10 +26,10 @@
 
         <!-- Timeframes Buttons -->
         <button class="header-buttons-small">
-          <img src="images/svg/plus.svg" class="header-profile-image">
+          <img src="images/svg/plus.svg" class="header-profile-image" >
         </button>
 
-        <div class="separator"></div>
+        <div class="separator-vertical"></div>
 
         <button class="header-buttons-mid">1m</button>
         <button class="header-buttons-mid">5m</button>
@@ -39,25 +39,33 @@
         <button class="header-buttons-mid">D</button>
 
         <!-- Multi-level Dropdown -->
-        <button class="header-buttons-small">
-          <img class="timeframe-dropdown-arrow_image" src="images/svg/arrow-head-down.svg">
-        </button>
-        <div class="timeframe-dropdown-container">
-          <div class="subdrawdown-section-header">
-            <button class="subdrawdown-section-title"></button>
-            <img class="subdrawdown-section-title-arrow">
+        <button id="timeframe-dropdown-button" class="header-buttons-small">
+          <img class="timeframe-dropdown-arrow-image" src="images/svg/arrow-head-down.svg">
 
-            <div class="subdrawdown-section-contents">
-              <button>Timeframe</button>
-              <button>Timeframe</button>
-              <button>Timeframe</button>
-              <button>Timeframe</button>
-              <button>Timeframe</button>
+          <div class="timeframe-dropdown-container">
+
+            <!-- Add Custon Interval Button -->
+            <div class="subdrawdown-section-content">
+              <img class="subdrawdown-section-content-image" src="images/svg/add-big.svg">
+              <div class="subdrawdown-section-content-text">Add custom interval...</div>
             </div>
+            
+            <div class="separator-horizontal"></div>
+
+            <!-- Seconds Sections -->
+            <div class="subdrawdown-section-header">
+              <div class="subdrawdown-section-title">SECONDS</div>
+              <img class="subdrawdown-section-title-arrow" src="images/svg/arrow-head-down.svg">
+            </div>
+
+            <div class="subdrawdown-section-content">
+              <div class="timeframe-item-text">Timeframe</div>
+              <img class="timeframe-item-favorite-image" src="images/svg/favorite.svg">
+            </div>
+            
+            
           </div>
-
-
-        </div>
+        </button>
           
 
       </div>
