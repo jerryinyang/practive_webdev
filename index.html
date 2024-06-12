@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chart</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <main  class="main-container">
+
+    <section class="section-header">
+
+      <div class="header-left">
+        <!-- Profile Picture Button/Image -->
+        <button id="button-profile-picture" class="header-buttons">
+          <img src="images/profile-picture.png" class="header-profile-image">
+        </button>
+
+        <!-- Chart Symbol Search Button/Image -->
+        <button class="header-buttons">
+          <img class="header-symbol-search-image" src="images/svg/search.svg">
+          <span class="header-symbol-search-text">BTCUSDT</span>
+        </button>
+        
+
+        <!-- Timeframes Buttons -->
+        <button class="header-buttons-small">
+          <img src="images/svg/plus.svg" class="header-profile-image">
+        </button>
+
+        <div class="separator"></div>
+
+        <button class="header-buttons-mid">1m</button>
+        <button class="header-buttons-mid">5m</button>
+        <button class="header-buttons-mid">15m</button>
+        <button class="header-buttons-mid">1h</button>
+        <button class="header-buttons-mid">4h</button>
+        <button class="header-buttons-mid">D</button>
+
+        <!-- Multi-level Dropdown -->
+        <button class="header-buttons-small">
+          <img class="timeframe-dropdown-arrow_image" src="images/svg/arrow-head-down.svg">
+        </button>
+        <div class="timeframe-dropdown-container">
+          <div class="subdrawdown-section-header">
+            <button class="subdrawdown-section-title"></button>
+            <img class="subdrawdown-section-title-arrow">
+
+            <div class="subdrawdown-section-contents">
+              <button>Timeframe</button>
+              <button>Timeframe</button>
+              <button>Timeframe</button>
+              <button>Timeframe</button>
+              <button>Timeframe</button>
+            </div>
+          </div>
+
+
+        </div>
+          
+
+      </div>
+
+      <div class="header-right placeholder-2">
+
+      </div>
+
+    </section>
+
+
+    <section class="section-body">
+
+      <section class="body-left">
+        Body 1
+      </section>
+
+      <section class="body-mid">
+
+        <div class="body-mid-chart">
+          Chart
+        </div>
+        <div class="body-mid-dash">
+          Dashboard
+        </div>
+
+      </section>
+
+      <section class="body-right">
+        Body 3
+      </section>
+      
+    </section>
+
+  </main>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
