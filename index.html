@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chart</title>
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
   <main  class="main-container">
@@ -24,13 +25,16 @@
         </button>
         
 
-        <!-- Timeframes Buttons -->
+        <!-- Compare Symbol Button/Image -->
         <button class="header-buttons-small">
           <img src="images/svg/plus.svg" class="header-profile-image" >
         </button>
 
+        <!-- Vertical Separator -->
         <div class="separator-vertical"></div>
 
+
+         <!-- Timeframes Buttons -->
         <button class="header-buttons-mid">1m</button>
         <button class="header-buttons-mid">5m</button>
         <button class="header-buttons-mid">15m</button>
@@ -42,9 +46,10 @@
         <button id="timeframe-dropdown-button" class="header-buttons-small">
           <img class="timeframe-dropdown-arrow-image" src="images/svg/arrow-head-down.svg">
 
-          <div class="timeframe-dropdown-container">
+          
+          <!-- <div class="timeframe-dropdown-container">
 
-            <!-- Add Custon Interval Button -->
+            // COMMENT Add Custon Interval Button
             <div class="subdrawdown-section-content">
               <img class="subdrawdown-section-content-image" src="images/svg/add-big.svg">
               <div class="subdrawdown-section-content-text">Add custom interval...</div>
@@ -52,7 +57,7 @@
             
             <div class="separator-horizontal"></div>
 
-            <!-- Seconds Sections -->
+            // COMMENT Seconds Sections
             <div class="subdrawdown-section-header">
               <div class="subdrawdown-section-title">SECONDS</div>
               <img class="subdrawdown-section-title-arrow" src="images/svg/arrow-head-down.svg">
@@ -64,14 +69,102 @@
             </div>
             
             
+          </div> -->
+          
+        </button>
+        
+
+        <!-- Vertical Separator -->
+        <div class="separator-vertical"></div>
+
+
+        <!-- Chart Type Button --> 
+        <button class="header-buttons-small">
+          <img src="images/svg/candlesticks.svg" class="header-profile-image" >
+        </button>
+
+
+        <!-- Vertical Separator -->
+        <div class="separator-vertical"></div>
+
+
+        <!-- Chart Type Button --> 
+        <button class="header-buttons-small">
+          <img src="images/svg/indicators.svg" class="header-profile-image" > 
+          <div> Indicators</div>
+        </button>
+
+
+        <!-- Indicator Dropdown -->
+        <button class="header-buttons-small">
+          <img class="timeframe-dropdown-arrow-image" src="images/svg/arrow-head-down.svg">
+        </button>
+
+
+        <!-- Templates Button --> 
+        <button class="header-buttons-small">
+          <img src="images/svg/templates.svg" class="header-profile-image" >
+        </button>
+
+        <button class="templates-saved-buttons">
+          <div class="templates-saved-buttons-first-div">
+            <div class="templates-saved-buttons-second-div">
+              D
+            </div>
           </div>
         </button>
-          
+
+        <button class="templates-saved-buttons">
+          <div class="templates-saved-buttons-first-div">
+            <div class="templates-saved-buttons-second-div">
+              I
+            </div>
+          </div>
+        </button>
+
+        <button class="templates-saved-buttons">
+          <div class="templates-saved-buttons-first-div">
+            <div class="templates-saved-buttons-second-div">
+              V
+            </div>
+          </div>
+        </button> 
+
+
+        <!-- Vertical Separator -->
+        <div class="separator-vertical"></div>
+
+
+        <!-- Add Alert Button --> 
+        <button class="header-buttons-small">
+          <img src="images/svg/alerts.svg" class="header-profile-image" > 
+          <div> Alert</div>
+        </button>
+
+        <!-- Replay Button --> 
+        <button class="header-buttons-small">
+          <img src="images/svg/replay.svg" class="header-profile-image" > 
+          <div>Replay</div>
+        </button>
+
+        <!-- Vertical Separator -->
+        <div class="separator-vertical"></div>
+
+        <button class="header-buttons-small">
+          <img src="images/svg/undo.svg" class="undo-redo-button" > 
+        </button>
+
+        <button class="header-buttons-small">
+          <img src="images/svg/redo.svg" class="undo-redo-button" > 
+        </button>
+       
 
       </div>
 
-      <div class="header-right placeholder-2">
-
+      <div class="header-right">
+        <button class="header-buttons-small">
+          <img src="images/svg/layout.svg" class="undo-redo-button" > 
+        </button>
       </div>
 
     </section>
@@ -80,7 +173,6 @@
     <section class="section-body">
 
       <section class="body-left">
-        Body 1
       </section>
 
       <section class="body-mid">

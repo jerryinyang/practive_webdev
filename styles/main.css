@@ -1,0 +1,84 @@
+:root {
+  --primary-color: rgb(19, 23, 34);
+  --secondary-color: rgb(42, 46, 57);
+  --secondary-color-light: rgb(77, 78, 79);
+  --secondary-color-lighter: rgb(120, 123, 134);
+  --secondary-color-dark: rgb(30, 34, 45);
+  --background-color: white;
+  --text-color: rgb(209, 212, 220);
+  --gap: 4px;
+}
+
+* {
+  font-size: 14px;
+  font-family: system-ui;
+  font-weight: 300;
+  /* letter-spacing: 0.07em; */
+}
+
+html, body {
+  background-color: var(--secondary-color);
+  height: 100vh;
+  margin: 0
+}
+
+.main-container {
+  background-color: var(--secondary-color);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--gap);
+}
+
+
+/* UNSTYLED SECTIONS */
+
+
+.section-body {
+  background-color: var(--secondary-color) ;
+  flex-grow: 1;
+  display: flex;
+  column-gap: var(--gap);
+}
+
+.body-left {
+  background-color: var(--primary-color);
+  width: 2.75%;
+  border-top-right-radius: var(--gap);
+}
+
+
+.body-mid {
+  background-color: var(--secondary-color);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--gap);
+}
+
+.body-right {
+  background-color: var(--primary-color);
+  width: 2.75%;
+  border-top-left-radius: var(--gap);
+}
+
+.body-mid-chart {
+  background-color: var(--primary-color);
+  border-radius: var(--gap);
+  flex-grow: 1;
+}
+
+.body-mid-dash {
+  background-color: var(--primary-color);
+  height: 30%;
+  border-top-left-radius: var(--gap);
+  border-top-right-radius: var(--gap);
+}
+
+.placeholder-1 {
+  background-color: rgb(218, 223, 221);
+}
+
+.placeholder-2 {
+  background-color: rgb(150, 216, 178);
+}
