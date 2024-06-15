@@ -165,7 +165,8 @@
 }
 
 
-/* Templates */
+/* Templates Buttons */
+
 .templates-saved-buttons {
   background-color: transparent;
   height: 100%;
@@ -212,12 +213,11 @@
   margin: 3px;
   z-index: 1;
   
-  }
+}
 
-  .templates-saved-buttons-first-div:hover::before {
-    background-color: var(--secondary-color);
-  }
-
+.templates-saved-buttons-first-div:hover::before {
+  background-color: var(--secondary-color);
+}
 
 .templates-saved-buttons-first-div::before {
   position: absolute;
@@ -233,3 +233,5 @@
   box-sizing: border-box; 
   pointer-events: none;
 }
+
+/* End of Template Buttons */
