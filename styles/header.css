@@ -9,7 +9,7 @@
   padding: 2px;
 }
 
-.header-left {
+.header-left, .header-right {
   display: flex;
   flex-direction: row;
 }
@@ -235,3 +235,12 @@
 }
 
 /* End of Template Buttons */
+
+.header-publish-button {
+  background-color: rgb(40, 98, 255);
+  color: white;
+  border: none;
+  margin: 3px;
+  padding: 0px 12px;
+  border-radius: 20px;
+}
